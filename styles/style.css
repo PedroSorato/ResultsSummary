@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --cor-1: hsl(0, 100%, 67%);
+    --cor-2: hsl(39, 100%, 56%);
+    --cor-3: hsl(166, 100%, 37%);
+    --cor-4: hsl(234, 85%, 45%);
+    --cor-5: hsl(252, 100%, 67%);
+    --cor-6: hsl(241, 81%, 54%);
+    --cor-7: hsla(256, 72%, 46%, 1);
+    --cor-8: hsla(241, 72%, 46%, 0);
+    --cor-9: hsl(0, 0%, 100%);
+    --cor-10: hsl(221, 100%, 96%);
+    --cor-11: hsl(241, 100%, 89%);
+    --cor-12: hsl(224, 30%, 27%);
+}
+
+main {
+    font-family: 'Hanken Grotesk', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.result {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    height: 400px;
+    width: 400px;
+    gap: 35px;
+    justify-content: center;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+.result-information {
+    color: var(--cor-11);
+}
+.info_top {
+    font-size: 20px;
+}
+.info_bottom{
+    font-size: 14px;
+}
+.range {
+    background: linear-gradient(to top, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 145px;
+    border-radius: 70px;
+    width: 120px;
+    height: 120px;
+    color: var(--cor-12);
+}
+.range h2 {
+    font-size: 50px;
+}
+.result-score {
+    color: var(--cor-9);
+}
+.summary {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 20px;
+    text-align: left;
+    margin-left: 40px;
+}
